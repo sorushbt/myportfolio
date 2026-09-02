@@ -1,0 +1,60 @@
+# Query: myportofolio
+# ContextLines: 1
+
+12 results - 6 files
+
+manage.py:
+  8      """Run administrative tasks."""
+  9:   os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portofolio.settings')
+2.
+  10      try:
+
+myportofolio/settings.py:
+   1  """
+   2: Django settings for myportofolio project.
+   3  ...
+
+  49  
+  50: ROOT_URLCONF = 'myportofolio.urls'
+  51  
+
+  66  
+  67: WSGI_APPLICATION = 'myportofolio.wsgi.application'
+  68  
+
+portofolio/asgi.py:
+   1  """
+   2: ASGI config for myportofolio project.
+   3 
+
+  13  
+  14: os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portofolio.settings')
+  15  
+
+portofolio/settings.py:
+   1  """
+   2: Django settings for myportofolio project.
+   3  ...
+
+  49  
+  50: ROOT_URLCONF = 'portofolio.urls'
+
+  51  
+
+  66  
+  67: WSGI_APPLICATION = 'portofolio.wsgi.application'
+  68  
+
+portofolio/urls.py:
+  1  """
+  2: URL configuration for myportofolio project.
+  3  
+
+portofolio/wsgi.py:
+   1  """
+   2: WSGI config for myportofolio project.
+   3  
+
+  13  
+  14: os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portofolio.settings')
+  15  
